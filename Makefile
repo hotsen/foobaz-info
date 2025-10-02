@@ -1,5 +1,5 @@
-build:
-	echo "Copying files from foobaz-one ..."
+core:
+	@echo "Copying schema and models from foobaz-one ..."
 	cp ../foobaz-one/db/schema.rb ./db/core_schema.rb
 	cp -rf ../foobaz-one/app/models/core ./app/models
 	cp -rf ../foobaz-one/test/models/core ./test/models
